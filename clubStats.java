@@ -17,6 +17,15 @@ public class clubStats{
     this.goalsAssists = goalsAssists;
     this.isChampionsLeague = isChampionsLeague;
   }
+  /*
+  * No argument Constuctor
+  */
+  public clubStats(){
+    clubs = "";
+    leagues = "";
+    goalsAssists = 0;
+    isChampionsLeague = "";
+  }
 
   /*
   * These are the getter methods also known as the accessor methods. They get the values of the user and return it. For example, gets name, returns league. 
